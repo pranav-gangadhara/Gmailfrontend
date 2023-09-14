@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { logoutAction } from '../../../../redux/actions/accountActions';
 import styles from './styles/AccountControls.module.css';
 import { Avatar, Badge, Button } from '@material-ui/core';
+import React from 'react';
 
 export default function AccountControls({ user, toggleShowEditImage, toggleShowProfile }) {
   const dispatch = useDispatch();

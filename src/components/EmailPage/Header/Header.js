@@ -9,6 +9,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import AppsIcon from '@material-ui/icons/Apps';
 import NotificationsRoundedIcon from '@material-ui/icons/NotificationsRounded';
+import React from 'react';
+
+
 
 export default function Header({ toggleShowSidebar }) {
   const { user } = useSelector((state) => state.userReducer);

@@ -4,6 +4,7 @@ import styles from './styles/AuthPage.module.css';
 import FormLogin from './Form/FormLogin';
 import FormRegister from './Form/FormRegister';
 import GmailIcon from './images/gmail.svg';
+import React from 'react';
 
 export default function AuthPage() {
   const { user, isLoading, error } = useSelector((state) => state.userReducer);

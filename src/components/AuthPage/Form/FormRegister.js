@@ -5,6 +5,8 @@ import { clearErrors } from '../../../redux/actions/clearErrors';
 import { useForm } from 'react-hook-form';
 import styles from './styles/Form.module.css';
 import { Button, CircularProgress } from '@material-ui/core';
+import React from 'react';
+
 
 export default function FormRegister({ isLoading, error }) {
   const dispatch = useDispatch();

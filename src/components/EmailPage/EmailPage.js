@@ -8,6 +8,7 @@ import Sidebar from './Sidebar/Sidebar';
 import EmailCategory from './EmailCategory/EmailCategory';
 import EmailView from './EmailView/EmailView';
 import ComposeMail from './ComposeMail/ComposeMail';
+import React from 'react';
 
 export default function EmailPage() {
   const dispatch = useDispatch();
@@ -85,7 +86,7 @@ export default function EmailPage() {
           />
         )}
 
-        <div className={styles.container} className='scroll'>
+        <div className={`${styles.container} scroll`} >
           <Route exact path='/email/:category'>
             <EmailCategory
               inbox={inbox}

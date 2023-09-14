@@ -5,6 +5,7 @@ import { markAsReadAction } from '../../../redux/actions/emailActions';
 import styles from './styles/EmailView.module.css';
 import EmailOptions, { Delete, GoBack, MarkUnread, PlaceTrash } from '../EmailOptions/EmailOptions';
 import { Avatar } from '@material-ui/core';
+import React from 'react';
 
 export default function EmailView({ inbox, sent, drafts, starred, trash }) {
   const dispatch = useDispatch();

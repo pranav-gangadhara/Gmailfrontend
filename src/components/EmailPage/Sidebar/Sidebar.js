@@ -10,6 +10,7 @@ import SendRoundedIcon from '@material-ui/icons/Send';
 import NoteRoundedIcon from '@material-ui/icons/Note';
 import DeleteRoundedIcon from '@material-ui/icons/Delete';
 import ExpandMoreRoundedIcon from '@material-ui/icons/ExpandMoreRounded';
+import React from 'react';
 
 export default function Sidebar({
   toggleIsCompose,

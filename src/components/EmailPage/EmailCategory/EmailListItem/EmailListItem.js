@@ -1,6 +1,7 @@
 import { useHistory, useParams } from 'react-router-dom';
 import styles from './styles/EmailListItem.module.css';
 import { Delete, MarkStar, SelectOne } from '../../EmailOptions/EmailOptions';
+import React from 'react';
 
 export default function EmailCategoryItem({
   id,

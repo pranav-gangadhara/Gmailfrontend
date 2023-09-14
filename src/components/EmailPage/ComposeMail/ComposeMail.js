@@ -8,6 +8,7 @@ import {
 import { useForm } from 'react-hook-form';
 import { Button } from '@material-ui/core';
 import styles from './styles/ComposeMail.module.css';
+import React from 'react';
 
 function ComposeMail({ toggleIsCompose, composeDraft }) {
   const dispatch = useDispatch();

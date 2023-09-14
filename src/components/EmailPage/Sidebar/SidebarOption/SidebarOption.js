@@ -1,4 +1,5 @@
 import styles from './styles/SidebarOption.module.css';
+import React from 'react';
 
 export default function SidebarOption({ Icon, title, number, selected, onClick, className }) {
   return (

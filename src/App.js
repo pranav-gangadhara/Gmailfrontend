@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import { useDispatch, useSelector } from 'react-redux';
 import { getUserAction } from './redux/actions/accountActions';
 import './styles/App.css';
+import React from 'react';
 import AuthPage from './components/AuthPage/AuthPage';
 import EmailPage from './components/EmailPage/EmailPage';
 

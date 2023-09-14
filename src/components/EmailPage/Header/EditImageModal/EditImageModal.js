@@ -4,6 +4,7 @@ import { uploadImageAction } from '../../../../redux/actions/accountActions';
 import styles from './styles/EditImageModal.module.css';
 import FileBase64 from 'react-file-base64';
 import { Avatar, Button } from '@material-ui/core';
+import React from 'react';
 
 export default function EditImageModal({ toggleShowEditImage }) {
   const dispatch = useDispatch();

@@ -5,6 +5,7 @@ import styles from './styles/EmailCategory.module.css';
 import EmailOptions, { More, Refetch, SelectAll } from '../EmailOptions/EmailOptions';
 import EmailListItem from './EmailListItem/EmailListItem';
 import { CircularProgress } from '@material-ui/core';
+import React from 'react';
 
 export default function EmailCategory({ inbox, sent, drafts, starred, trash, toggleIsCompose }) {
   const { category } = useParams();

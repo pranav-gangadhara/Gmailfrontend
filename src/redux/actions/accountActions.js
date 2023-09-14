@@ -15,6 +15,7 @@ import {
 } from './../constants';
 import { register, login, getUser, uploadImage } from './../../api';
 
+
 export const logoutAction = () => {
   return { type: LOGOUT };
 };

@@ -23,6 +23,7 @@ import DeleteRoundedIcon from '@material-ui/icons/DeleteRounded';
 import RestoreFromTrashRoundedIcon from '@material-ui/icons/RestoreFromTrashRounded';
 import DeleteForeverRoundedIcon from '@material-ui/icons/DeleteForeverRounded';
 import MoreVertRoundedIcon from '@material-ui/icons/MoreVertRounded';
+import React from 'react';
 
 export default function EmailOptions(props) {
   return (
