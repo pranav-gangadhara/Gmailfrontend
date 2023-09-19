@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://35.154.160.199:8080/api/v1';
+const url = 'http://localhost:8080/api/v1';
 const headers = (token) => ({
   headers: {
     'Content-Type': 'application/json',
